@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FBDE6A34-BBE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.MSBuild.Logging", "src\THNETII.MSBuild.Logging\THNETII.MSBuild.Logging.csproj", "{A4B495CE-97BC-4E00-BF0C-723B175B040A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.MSBuild.Logging.CiCdOutput", "src\THNETII.MSBuild.Logging.CiCdOutput\THNETII.MSBuild.Logging.CiCdOutput.csproj", "{37E3A210-1994-4345-9E87-CF4F26424F56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,8 +37,13 @@ Global
 		{A4B495CE-97BC-4E00-BF0C-723B175B040A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4B495CE-97BC-4E00-BF0C-723B175B040A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4B495CE-97BC-4E00-BF0C-723B175B040A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E3A210-1994-4345-9E87-CF4F26424F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E3A210-1994-4345-9E87-CF4F26424F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E3A210-1994-4345-9E87-CF4F26424F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E3A210-1994-4345-9E87-CF4F26424F56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A4B495CE-97BC-4E00-BF0C-723B175B040A} = {FBDE6A34-BBE1-4759-B75A-E597D3A1A37E}
+		{37E3A210-1994-4345-9E87-CF4F26424F56} = {FBDE6A34-BBE1-4759-B75A-E597D3A1A37E}
 	EndGlobalSection
 EndGlobal
