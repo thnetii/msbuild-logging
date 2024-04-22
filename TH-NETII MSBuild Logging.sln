@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{109C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FBDE6A34-BBE1-4759-B75A-E597D3A1A37E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.MSBuild.Logging", "src\THNETII.MSBuild.Logging\THNETII.MSBuild.Logging.csproj", "{A4B495CE-97BC-4E00-BF0C-723B175B040A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,5 +29,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4B495CE-97BC-4E00-BF0C-723B175B040A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B495CE-97BC-4E00-BF0C-723B175B040A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B495CE-97BC-4E00-BF0C-723B175B040A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B495CE-97BC-4E00-BF0C-723B175B040A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4B495CE-97BC-4E00-BF0C-723B175B040A} = {FBDE6A34-BBE1-4759-B75A-E597D3A1A37E}
 	EndGlobalSection
 EndGlobal
