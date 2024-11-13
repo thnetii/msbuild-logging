@@ -18,7 +18,7 @@
     <PackageReference
       Condition="!$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net5.0'))"
       Include="Microsoft.Bcl.HashCode">
-      <Version>1.1.1</Version>
+      <Version>6.0.0</Version>
     </PackageReference>
   </ItemGroup>
 
